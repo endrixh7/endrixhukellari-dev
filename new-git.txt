@@ -11,5 +11,4 @@ echo "# endrixhukellari.dev" >> README.md
   git remote add origin https://github.com/endrixh7/endrixhukellari.dev.git
   git branch -M main
   git push -u origin main
-
 Done ✅❤️

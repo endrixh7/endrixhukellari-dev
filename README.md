@@ -41,4 +41,32 @@
         - Done ✅
 
 ## Navbar Component
-    
+    - Lets take a look at data.jsx
+    - Lets create the 'component folder'
+    - Lets create Navbar.jsx
+        - Dont forget to render on the App.jsx using fragment
+    - Lets continue with Navbar.jsx
+        - add css class from the Tailwind
+    Done ✅
+    - Challenge: find align-self in Tailwind ❌
+
+## Custom Class 
+    - Add our own class and avoid repetition
+    - How to do it?
+        - Go to index.css
+            - @layer components{
+                .align-element {
+                    @apply mx-auto max-w-7xl px-8
+                }
+            }
+        - Now go to the element/component and set our class name
+            - example: <div className='align-element' </div>
+        - Done ✅❤️😎
+
+## Skills Section
+    - Info about our skills
+    - Apply global styles
+    - Take a look at data, what we are going to apply on our website (skills)
+        - info: We can apply directly our styles in array within the data object
+        - We also can apply pure CSS
+

@@ -1,7 +1,18 @@
-export default function App() {
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills.jsx";
+import About from "./components/About.jsx";
+import Projects from "./components/Projects.jsx";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Navbar/>
+      <Hero />
+      <Skills/>
+      <About/>
+      <Projects/>
+    </>
   )
 }
+export default App
