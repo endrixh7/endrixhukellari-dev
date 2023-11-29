@@ -1,12 +1,23 @@
-import { useState } from "react";
+/* eslint-disable no-unused-vars */
+import { useState, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "../data";
 import logo from "../logo.svg"
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const linksContainerRef = useRef(null);
+  const linksRef = useRef(null);
+
   const toggleLinks = () => {
+    // Log the ref value/current
+    // This will be Dynamic
+    // console.log(linksRef.current.getBoundingClientRect());
     setShowLinks(!showLinks);
+  };
+
+  const linksStyles = {
+    height:showLinks? `${linksRef.current.getBoundingClientRect().height}px`:'0px',
   };
 
   return (<nav>
@@ -15,8 +26,9 @@ const Navbar = () => {
         <img src={logo} alt='' className="logo" />
         <button className="nav-toggle" onClick={toggleLinks}> <FaBars/> </button>
       </div>
-      {showLinks && <div className="links-container">
-        <ul className="links">
+
+       <div className="links-container " ref={linksContainerRef} style={linksStyles}>
+        <ul className="links" ref={linksRef}>
           {links.map((link)=>{
             const {id,href, text} = link;
             return <li key={id}>
@@ -24,7 +36,18 @@ const Navbar = () => {
             </li>
           })}
         </ul>
-      </div> }
+      </div> 
+
+      {/* Social Links */}
+      <ul className="social-icons">
+        {social.map((socialIcon)=>{
+          const {id, url, icon} = socialIcon
+            return <li key={id}>
+              <a href={url}>{icon}</a>
+            </li>
+        })}
+      </ul>
+
     </div>
   </nav>)
 
