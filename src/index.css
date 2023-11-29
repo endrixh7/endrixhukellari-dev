@@ -1,3 +1,11 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +14,48 @@
     .align-element {
         @apply mx-auto max-w-7xl px-8
     }
+}
+
+nav {
+    background: white;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    color: red;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.nav-toggle:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    height: 40px;
+}
+
+.links a {
+    color: gray;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: 0.3s ease-in-out all;
+}
+
+.links a:hover {
+    background: black ;
+    color: white ;
+    padding-left: 1.5rem;
 }

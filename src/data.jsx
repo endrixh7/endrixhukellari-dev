@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaFacebook, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+// Import Icons from React Library and render it as component inside the array of data, read the documentation for more
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -55,3 +56,29 @@ export const projects = [
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
 ];
+
+export const social = [
+  {
+    id:nanoid(),
+    url: 'https://linkedin.com',
+    icon: <FaFacebook/>
+  },
+
+  {
+    id:nanoid(),
+    url: 'https://linkedin.com',
+    icon: <FaFacebook/>
+  },
+
+  {
+    id:nanoid(),
+    url: 'https://linkedin.com',
+    icon: <FaFacebook/>
+  },
+
+  {
+    id:nanoid(),
+    url: 'https://linkedin.com',
+    icon: <FaFacebook/>
+  },
+]
