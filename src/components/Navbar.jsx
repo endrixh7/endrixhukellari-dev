@@ -20,7 +20,7 @@ const Navbar = () => {
     height:showLinks? `${linksRef.current.getBoundingClientRect().height}px`:'0px',
   };
 
-  return (<nav>
+  return (<nav className="fixed top-0 left-0 right-0">
     <div className="nav-center">
       <div className="nav-header">
         <img src={logo} alt='' className="logo" />
