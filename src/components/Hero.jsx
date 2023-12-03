@@ -1,5 +1,6 @@
 import heroImg from '../assets/hero.svg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+// import { heroIcons } from '../data';
 
 const Hero = () => {
   return (
@@ -15,14 +16,15 @@ const Hero = () => {
                 <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
                     turning ideas into interactive reality
                 </p>
+
                 <div className='flex gap-x-4 mt-4'>
-                    <a href="">
+                    <a href="https://github.com/endrixh7" target='_blank' rel="noreferrer">
                         <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/endri-xhukellari-0592311a5/" target='_blank' rel="noreferrer">
                         <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/XhukellariEndri" target='_blank' rel="noreferrer">
                         <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
                 </div>

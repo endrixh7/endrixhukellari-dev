@@ -1,8 +1,33 @@
+import img1 from './images/Frame1.svg';
+import img2 from './images/Frame2.svg';
+import img3 from './images/Frame3.svg';
+import img4 from './images/Frame4.svg';
+import img5 from './images/Frame5.svg';
+import img6 from './images/Frame6.svg';
+
 /* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaFacebook, FaHtml5, FaJs, FaReact, FaNodeJs, FaGitSquare, FaGithubSquare, FaWindows, FaLinux } from 'react-icons/fa';
+import { FaFacebook, FaHtml5, FaJs, FaReact, FaNodeJs, FaGitSquare, FaGithubSquare, FaWindows, FaLinux, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { SiMongodb, SiTailwindcss, SiContentful } from "react-icons/si";
 // Import Icons from React Library and render it as component inside the array of data, read the documentation for more
+
+export const heroIcons = [
+  {
+    id:nanoid(),
+    href: 'https://github.com/endrixh7',
+    icon: <FaGithubSquare/>
+  },
+  {
+    id:nanoid(),
+    href: 'https://www.linkedin.com/in/endri-xhukellari-0592311a5/https://github.com/endrixh7',
+    icon: <FaLinkedin/>
+  },
+  {
+    id:nanoid(),
+    href: 'https://twitter.com/XhukellariEndri',
+    icon: <FaTwitter/>
+  }
+]
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -90,29 +115,55 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: img1,
+    url: 'https://endrixhukellari-shopping-list.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-shopping-list',
+    title: 'Shopping List',
+    text: 'My first projects in Vanilla JS, CRUD Operations.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: img2,
+    url: 'https://endrixhukellari-flixx-app.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-flixx-app',
+    title: 'Flixx App',
+    text: 'My second project in Vanilla JS, Fetch API, TMDb Api, promises and async/await.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: img3,
+    url: 'https://backroads-app-html-to-react-app.netlify.app/',
+    github: 'https://github.com/endrixh7/backroads-app',
+    title: 'backroads app',
+    text: 'my third project, converting an existing web from HTML/CSS/JS to ReactJS Framework',
+  },
+  {
+    id: nanoid(),
+    img: img4,
+    url: 'https://endrixhukellari-birthday-buddy.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-birthday-buddy',
+    title: 'birthday buddy',
+    text: 'Mini-project, continuing the road with ReactJS, useState-hook.',
+  },
+  {
+    id: nanoid(),
+    img: img5,
+    url: 'https://endrixhukellari-tours.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-tours',
+    title: 'Tours',
+    text: 'Mini-project, continuing the road with ReactJS, useEffect-hook',
+  },
+  {
+    id: nanoid(),
+    img: img6,
+    url: 'https://endrixhukellari.dev',
+    github: 'https://github.com/endrixh7/endrixhukellari-dev',
+    title: 'My Portofolio - endrixhukellari.dev',
+    text: 'My portofolio, continuing the road with ReactJS, useEffect/useState-hook',
   },
 ];
+
+
 
 export const social = [
   {

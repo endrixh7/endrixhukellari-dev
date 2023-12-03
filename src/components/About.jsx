@@ -10,6 +10,10 @@ const About = () => {
                 <p className='text-slate-600 mt-8 leading-loose'>
                     👨‍💻 Code and Coffe ☕ <br></br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
                 </p>
             </article>
         </div>
