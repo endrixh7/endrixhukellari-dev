@@ -36,73 +36,73 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+    icon: <FaHtml5 className='h-16 w-16 text-slate-' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
 
   {
     id: nanoid(),
     title: 'Tailwind CSS',
-    icon: <SiTailwindcss className='h-16 w-16 text-emerald-500' />,
+    icon: <SiTailwindcss className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJs className='h-16 w-16 text-yellow-400' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    icon: <FaReact className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'Node JS',
-    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    icon: <FaNodeJs className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
   {
     id: nanoid(),
     title: 'MongoDB',
-    icon: <SiMongodb className='h-16 w-16 text-emerald-500' />,
+    icon: <SiMongodb className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
   {
     id: nanoid(),
     title: 'Contentful CMS',
-    icon: <SiContentful className='h-16 w-16 text-emerald-500' />,
+    icon: <SiContentful className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
   {
     id: nanoid(),
     title: 'Git',
-    icon: <FaGitSquare className='h-16 w-16 text-emerald-500' />,
+    icon: <FaGitSquare className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'Github',
-    icon: <FaGithubSquare className='h-16 w-16 text-emerald-500' />,
+    icon: <FaGithubSquare className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 
   {
     id: nanoid(),
     title: 'Windows',
-    icon: <FaWindows className='h-16 w-16 text-emerald-500' />,
+    icon: <FaWindows className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'Linux',
-    icon: <FaLinux className='h-16 w-16 text-emerald-500' />,
+    icon: <FaLinux className='h-16 w-16' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
@@ -118,7 +118,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:"",
+    img:img1,
     url: 'https://endrixhukellari-flixx-app.netlify.app/',
     github: 'https://github.com/endrixh7/endrixhukellari-flixx-app',
     title: 'Flixx App',
@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:"",
+    img:img1,
     url: 'https://backroads-app-html-to-react-app.netlify.app/',
     github: 'https://github.com/endrixh7/backroads-app',
     title: 'backroads app',
@@ -134,7 +134,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:"",
+    img:img1,
     url: 'https://endrixhukellari-birthday-buddy.netlify.app/',
     github: 'https://github.com/endrixh7/endrixhukellari-birthday-buddy',
     title: 'birthday buddy',
@@ -142,7 +142,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:"",
+    img:img1,
     url: 'https://endrixhukellari-tours.netlify.app/',
     github: 'https://github.com/endrixh7/endrixhukellari-tours',
     title: 'Tours',
@@ -150,7 +150,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:"",
+    img:img1,
     url: 'https://endrixhukellari.dev',
     github: 'https://github.com/endrixh7/endrixhukellari-dev',
     title: 'My Portofolio - endrixhukellari.dev',
@@ -161,27 +161,22 @@ export const projects = [
 
 
 export const social = [
+
   {
     id:nanoid(),
     url: 'https://linkedin.com',
-    icon: <FaFacebook/>
+    icon: <FaGithubSquare className='h-6 w-6'/>
   },
 
   {
     id:nanoid(),
     url: 'https://linkedin.com',
-    icon: <FaFacebook/>
+    icon: <FaLinkedin className='h-6 w-6'/>
   },
 
   {
     id:nanoid(),
     url: 'https://linkedin.com',
-    icon: <FaFacebook/>
-  },
-
-  {
-    id:nanoid(),
-    url: 'https://linkedin.com',
-    icon: <FaFacebook/>
+    icon: <FaTwitter className='h-6 w-6'/>
   },
 ]

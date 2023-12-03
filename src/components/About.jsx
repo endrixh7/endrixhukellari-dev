@@ -1,4 +1,5 @@
 import aboutSvg from '../assets/about.svg';
+// import aboutSvg1 from '../assets/aboutSvg1.jpg';
 import SectionTitle from './SectionTitle';
 
 const About = () => {

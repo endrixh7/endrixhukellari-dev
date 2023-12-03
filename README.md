@@ -70,3 +70,5 @@
         - info: We can apply directly our styles in array within the data object
         - We also can apply pure CSS
 
+
+### https://tailwindcss.com/docs/text-color

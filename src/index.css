@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue-primary:(#03449D);
+    --blue-hover:(#2863b4);
+    --white-text:(#F8F7F2);
+    --transition:(0.3s ease-in-out all);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +24,7 @@
 }
 
 nav {
-    background: white;
+    background: #03449D;
 }
 
 .nav-header {
@@ -29,8 +36,7 @@ nav {
 
 .nav-toggle {
     font-size: 1.5rem;
-    background: transparent;
-    border-color: transparent;
+    color: #F8F7F2;
     cursor: pointer;
     transition: transform .2s;
 }
@@ -41,22 +47,21 @@ nav {
 
 .logo {
     height: 40px;
+    cursor: pointer;
 }
 
 .links a {
-    color: gray;
+    color:#F8F7F2;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 1px;
     display: block;
-    padding: 0.5rem 1rem;
-    margin-left: 1rem;
+    padding: 0.5rem 2rem;
     transition: 0.3s ease-in-out all;
 }
 
 .links a:hover {
-    color: blue ;
-    padding-left: 1.5rem;
+    background: #2863b4;
 }
 
 .links-container {
@@ -100,10 +105,8 @@ nav {
     }
 
     .links a {
-        padding: 0;
-    }
-    .links a:hover {
-        padding: 0;
+        padding: .5rem 0.75rem;
+        border-radius: 10px;
     }
 
     .social-icons {
@@ -111,5 +114,11 @@ nav {
         gap: 0.5rem;
     }
 
-    /* Take a look at John Code */
+    .social-icons a {
+        color: #F8F7F2;
+        transition: 0.3s ease-in-out all;
+    }
+    .social-icons a:hover {
+        transform: scale(1.2);
+    }
 }
