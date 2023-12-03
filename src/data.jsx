@@ -1,5 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { nanoid } from 'nanoid';
-import { FaFacebook, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaFacebook, FaHtml5, FaJs, FaReact, FaNodeJs, FaGitSquare, FaGithubSquare, FaWindows, FaLinux } from 'react-icons/fa';
+import { SiMongodb, SiTailwindcss, SiContentful } from "react-icons/si";
 // Import Icons from React Library and render it as component inside the array of data, read the documentation for more
 
 export const links = [
@@ -17,6 +19,14 @@ export const skills = [
     icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
+
+  {
+    id: nanoid(),
+    title: 'Tailwind CSS',
+    icon: <SiTailwindcss className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+
   {
     id: nanoid(),
     title: 'Javascript',
@@ -31,32 +41,48 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    title: 'Node JS',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <SiMongodb className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Contentful CMS',
+    icon: <SiContentful className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Git',
+    icon: <FaGitSquare className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    title: 'Github',
+    icon: <FaGithubSquare className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Windows',
+    icon: <FaWindows className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
-  {
-    id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
-  {
-    id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    title: 'Linux',
+    icon: <FaLinux className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
