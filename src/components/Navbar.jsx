@@ -32,7 +32,7 @@ const Navbar = () => {
           {links.map((link)=>{
             const {id,href, text} = link;
             return <li key={id}>
-              <a href={href}>{text}</a>
+              <a onClick={toggleLinks} href={href}>{text}</a>
             </li>
           })}
         </ul>

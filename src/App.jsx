@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Skills/>
       <About/>
       <Projects/>
+      <Footer/>
     </>
   )
 }
