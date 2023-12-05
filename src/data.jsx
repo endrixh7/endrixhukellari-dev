@@ -29,14 +29,13 @@ export const links = [
   { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
-  { id: nanoid(), href: '#blog', text: 'blog' },
 ];
 
 export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-slate-' />,
+    icon: <FaHtml5 className='h-16 w-16' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
 
