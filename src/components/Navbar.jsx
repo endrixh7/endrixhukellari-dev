@@ -20,10 +20,10 @@ const Navbar = () => {
     height:showLinks? `${linksRef.current.getBoundingClientRect().height}px`:'0px',
   };
 
-  return (<nav className="dark:bg-neutral-700 fixed top-0 left-0 right-0">
+  return (<nav className="fixed top-0 left-0 right-0">
     <div className="nav-center ">
       <div className="nav-header">
-        <img src={logo} alt='Endri Xhukellari"s logo' className="logo"/>
+        <a href="#home"> <img src={logo} alt='Endri Xhukellari"s logo' className="logo"/> </a>
         <button className="nav-toggle" onClick={toggleLinks}> <FaBars/> </button>
       </div>
 

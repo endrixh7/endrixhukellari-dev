@@ -7,10 +7,10 @@
 }
 
 :root {
-    --blue-primary:(#03449D);
-    --blue-hover:(#2863b4);
-    --white-text:(#F8F7F2);
-    --transition:(0.3s ease-in-out all);
+    --primary-text-color:#F8F7F2;
+    --secondary-text-color: #e2e2e2;
+    --hover-links: rgb(115 115 115);
+    --background:#404040;
 }
 
 @tailwind base;
@@ -24,7 +24,7 @@
 }
 
 nav {
-    background: #03449D;
+    background: var(--background);
 }
 
 .nav-header {
@@ -36,22 +36,19 @@ nav {
 
 .nav-toggle {
     font-size: 1.5rem;
-    color: #F8F7F2;
+    color: var(--primary-text-color);
     cursor: pointer;
     transition: transform .2s;
 }
 
-.nav-toggle:hover {
-    transform: scale(1.2);
-}
 
 .logo {
-    height: 40px;
+    height: 50px;
     cursor: pointer;
 }
 
 .links a {
-    color:#F8F7F2;
+    color:var(--primary-text-color);
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -61,8 +58,13 @@ nav {
 }
 
 .links a:hover {
-    background: #2863b4;
+    background: var(--hover-links);
 }
+
+.active {
+    background: var(--hover-links);
+}
+
 
 .links-container {
     overflow: hidden;
@@ -111,11 +113,11 @@ nav {
 
     .social-icons {
         display: flex;
-        gap: 0.5rem;
+        gap: 1.5rem;
     }
 
     .social-icons a {
-        color: #F8F7F2;
+        color: var(--primary-text-color);
         transition: 0.3s ease-in-out all;
     }
     .social-icons a:hover {

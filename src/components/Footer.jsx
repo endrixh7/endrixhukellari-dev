@@ -3,9 +3,9 @@ import logo from '../logo.svg'
 const Footer = () => {
   return (
 <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
-  <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+  <div className="flex items-center mx-20 justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
   <div className="mr-12 hidden md:block">
-    <span>Get connected with us:</span>
+    <span>Lets connect</span>
   </div>
   <div className="flex justify-center items-center">
     <a
