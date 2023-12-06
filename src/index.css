@@ -54,11 +54,13 @@ nav {
     letter-spacing: 1px;
     display: block;
     padding: 0.5rem 2rem;
-    transition: 0.3s ease-in-out all;
+    transition: 1s ease-in-out;
 }
 
 .links a:hover {
-    background: var(--hover-links);
+    /* background: var(--hover-links); */
+    border-top: 1px solid var(--secondary-text-color);
+    border-bottom: 1px solid var(--secondary-text-color);
 }
 
 .active {
@@ -108,7 +110,6 @@ nav {
 
     .links a {
         padding: .5rem 0.75rem;
-        border-radius: 10px;
     }
 
     .social-icons {
@@ -137,5 +138,5 @@ nav {
 }
 
 #about {
-    background: url('');
+    background: url('https://images.unsplash.com/photo-1508841588335-d91719736d2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
