@@ -95,6 +95,8 @@ const Footer = () => {
 
   </div>
 
+
+
   <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700 flex justify-center items-center">
 
       <span>© 2023 Copyright: </span>

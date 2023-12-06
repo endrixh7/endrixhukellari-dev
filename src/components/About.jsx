@@ -1,11 +1,12 @@
-import aboutSvg from '../assets/about.svg';
+// import aboutSvg from '../assets/about.svg';
 // import aboutSvg1 from '../assets/aboutSvg1.jpg';
 import SectionTitle from './SectionTitle';
+import endriAbout from '../assets/endriAbout.jpeg'
 
 const About = () => {
   return <section className='bg-white py-20' id='about'>
         <div className='align-element grid md:grid-cols-2 items-center gap-16'>
-            <img src={aboutSvg} className='w-full h-128 border-2 border-black rounded-3xl' />
+            <img src={endriAbout} className='w-full h-128 border-2 rounded-3xl' />
             <article>
                 <SectionTitle text='about me'/>
                 <p className='text-slate-600 mt-8 leading-loose'>

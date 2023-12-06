@@ -124,3 +124,18 @@ nav {
         transform: scale(1.2);
     }
 }
+
+.liveSite {
+    display: inline-block;
+    padding-top: 1rem;
+    border-bottom: 1px solid #404040;
+    font-size: 1rem;
+}
+
+#home {
+    background: url('https://images.unsplash.com/photo-1635776062360-af423602aff3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+#about {
+    background: url('');
+}
