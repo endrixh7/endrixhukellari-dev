@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle';
 import endriAbout from '../assets/endriAbout.jpeg'
 
 const About = () => {
-  return <section className='bg-white py-20' id='about'>
+  return <section className='py-20' id='about'>
         <div className='align-element grid md:grid-cols-2 items-center gap-16'>
             <img src={endriAbout} className='w-full h-128 border-2 rounded-3xl' />
             <article>

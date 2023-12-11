@@ -1,16 +1,15 @@
-import logo from '../logo.svg'
-
 const Footer = () => {
   return (
-<footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
-  <div className="flex items-center mx-20 justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
+<footer id='footer' className="text-center ">
+  <div className="flex items-center mx-20 justify-center p-6 lg:justify-between">
   <div className="mr-12 hidden md:block">
-    <span>Lets connect</span>
+  <span>© {new Date().getFullYear()} Endri Xhukellari. All rights reserved.
+  </span> 
   </div>
   <div className="flex justify-center items-center">
     <a
       href="https://twitter.com/XhukellariEndri" target='_blank'
-      className="mr-6 text-neutral-600 dark:text-neutral-200" rel="noreferrer"
+      className="mr-6" rel="noreferrer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +22,7 @@ const Footer = () => {
     </a>
     <a
       href="https://www.instagram.com/xhukellari.endri7/" target='_blank'
-      className="mr-6 text-neutral-600 dark:text-neutral-200" rel="noreferrer"
+      className="mr-6" rel="noreferrer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +35,7 @@ const Footer = () => {
     </a>
     <a
       href="https://www.linkedin.com/in/endri-xhukellari-0592311a5/" target='_blank'
-      className="mr-6 text-neutral-600 dark:text-neutral-200" rel="noreferrer"
+      className="mr-6" rel="noreferrer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +46,7 @@ const Footer = () => {
         <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
       </svg>
     </a>
-    <a href="https://github.com/endrixh7" target='_blank' className="text-neutral-600 dark:text-neutral-200" rel="noreferrer">
+    <a href="https://github.com/endrixh7" target='_blank' rel="noreferrer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-4 w-4"
@@ -59,58 +58,6 @@ const Footer = () => {
     </a>
   </div>
 </div>
-
-  <div className="mx-6 pt-8 pb-4 text-center">
-
-  <div className="relative mb-7">
-  <form action="">
-    <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-5 mb-6">
-      <div className="md:ml-auto">
-        <p className="font-bold">Sign up for our newsletter</p>
-      </div>
-
-      <div>
-        <label htmlFor="inputSignUp" className="sr-only">
-          Small input
-        </label>
-        <input
-          type="email"
-          id="inputSignUp"
-          placeholder="Your address"
-          className="w-full block rounded-lg border dark:border-none dark:bg-neutral-700 py-[9px] px-3 pr-4 text-sm focus:border-blue-400 focus:ring-1 focus:ring-blue-400 focus:outline-none"
-        />
-      </div>
-
-      <div className="md:mr-auto">
-        <button
-          type="submit"
-          className="inline-block rounded bg-indigo-500 text-neutral-50 shadow-[0_4px_9px_-4px_rgba(51,45,45,0.7)] hover:bg-indigo-600 hover:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] focus:bg-indigo-800 focus:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] active:bg-indigo-700 active:shadow-[0_8px_9px_-4px_rgba(51,45,45,0.2),0_4px_18px_0_rgba(51,45,45,0.1)] px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0"
-        >
-          Subscribe
-        </button>
-      </div>
-    </div>
-  </form>
-</div>
-
-  </div>
-
-
-
-  <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700 flex justify-center items-center">
-
-      <span>© 2023 Copyright: </span>
-
-      <a className="mx-3" href="">
-        <img src={logo}
-          className="h-5"
-          alt="TE Logo"
-          loading="lazy"
-        />
-      </a>
-
-  </div>
-
 
 </footer>
   )
