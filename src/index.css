@@ -21,6 +21,7 @@ body {
 }
 
 nav {
+    /* opacity: 0.7; */
     background: #F8F7F2;
     box-shadow: 2px 2px 2px #dfdedb;
 }
@@ -41,20 +42,26 @@ nav {
 
 
 .logo {
-    height: 50px;
+    height: 40px;
     cursor: pointer;
 }
 
 .links a {
+    border-radius: 10px;
     color:black;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 1px;
     display: block;
     padding: 0.5rem 2rem;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
+.links a:hover {
+    /* background-color: #BBAB8C; */
+    background-color: #DED0B6;
+    /* background-color: #FAEED1; */
+}
 
 
 .links-container {
@@ -105,15 +112,19 @@ nav {
         display: flex;
         gap: 1.5rem;
     }
-
-    .social-icons a {
-        transition: 0.3s ease-in-out all;
-    }
-    .social-icons a:hover {
-        transform: scale(1.2);
-    }
 }
 
+#cta {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #F8F7F2;
+    font-weight:bold ;
+    border: none;
+    background-color: #52b788;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+}
 
 /* Web creations section, added Live and Code links below the icons */
 .liveSite {

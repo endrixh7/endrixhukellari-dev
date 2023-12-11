@@ -29,6 +29,9 @@ const Hero = () => {
                         <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
                 </div>
+
+                <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch </a>
+
             </article>
             <article className='hidden md:block'>
                 <img src={heroImg} alt="" className='h-72 lg:h-96' />

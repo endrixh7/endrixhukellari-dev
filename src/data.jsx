@@ -164,19 +164,19 @@ export const social = [
 
   {
     id:nanoid(),
-    url: 'https://linkedin.com',
+    url: 'https://github.com/endrixh7',
     icon: <FaGithubSquare className='h-6 w-6'/>
   },
 
   {
     id:nanoid(),
-    url: 'https://linkedin.com',
+    url: 'https://www.linkedin.com/in/endri-xhukellari-0592311a5/',
     icon: <FaLinkedin className='h-6 w-6'/>
   },
 
   {
     id:nanoid(),
-    url: 'https://linkedin.com',
+    url: 'https://twitter.com/XhukellariEndri',
     icon: <FaTwitter className='h-6 w-6'/>
   },
 ]
