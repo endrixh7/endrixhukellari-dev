@@ -22,7 +22,7 @@ body {
 
 nav {
     background: #F8F7F2;
-    box-shadow: 10px 5px 5px #dfdedb ;
+    box-shadow: 2px 2px 2px #dfdedb;
 }
 
 .nav-header {
@@ -127,6 +127,9 @@ nav {
 #footer {
     background-color: #000b19;
     color: #F8F7F2;
+    background-color:#F8F7F2 ;
+    color: #000b19;
+    box-shadow:2px -2px 2px #dfdedb;
 }
 
 
