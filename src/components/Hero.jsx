@@ -1,5 +1,6 @@
 import heroImg from '../assets/hero.svg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { SlArrowRightCircle } from "react-icons/sl";
 // import { heroIcons } from '../data';
 // import heroImg1 from '../assets/react-hero.svg';
 
@@ -30,8 +31,9 @@ const Hero = () => {
                     </a>
                 </div>
 
-                <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch </a>
-
+                <div className='cta-icon'>
+                <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch  <span> <SlArrowRightCircle className='arrow-icon'/> </span> </a>
+                </div>
             </article>
             <article className='hidden md:block'>
                 <img src={heroImg} alt="" className='h-72 lg:h-96' />

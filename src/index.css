@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    
+}
+
 body {
     background-color: #F8F7F2;
 } 
@@ -114,17 +118,39 @@ nav {
     }
 }
 
+.cta-icon {
+    margin-top: 2.25rem;
+    display: flex;
+    align-items: center;
+}
+
 #cta {
     display: inline-block;
     text-transform: capitalize;
     color: #F8F7F2;
+    font-size: 1.25rem;
     font-weight:bold ;
     border: none;
     background-color: #52b788;
     border-radius: 1rem;
-    margin-top: 1.5rem;
     padding: 1rem 1.5rem;
+    transition: 0.75s;
 }
+
+
+#cta:hover {
+    background-color: #74C69D;
+    color: #404040;
+}
+
+.arrow-icon {
+    display: inline-block;
+    margin-left: 0.25rem;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+
 
 /* Web creations section, added Live and Code links below the icons */
 .liveSite {
