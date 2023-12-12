@@ -7,11 +7,19 @@
 }
 
 :root {
-    
+    --background: #F8F7F2;
+    --color-footer: #000b19;
+    --cta-color--hover:#404040;
+    --cta-bckg: #52b788;
+    --cta-bckg--hover: #74C69D;
+    --nav-box--shadow:#dfdedb;
+    --footer-box--shadow:#dfdedb;
+    --underline--color:#BBAB8C;
+    --links-color--hover: #DED0B6;
 }
 
 body {
-    background-color: #F8F7F2;
+    background-color: var(--background) ;
 } 
 
 @tailwind base;
@@ -26,8 +34,8 @@ body {
 
 nav {
     /* opacity: 0.7; */
-    background: #F8F7F2;
-    box-shadow: 2px 2px 2px #dfdedb;
+    background: var(--background);
+    box-shadow: 2px 2px 2px var(--nav-box--shadow);
 }
 
 .nav-header {
@@ -39,7 +47,7 @@ nav {
 
 .nav-toggle {
     font-size: 1.5rem;
-    color: black;
+    color: var(--cta-color--hover);
     cursor: pointer;
     transition: transform .2s;
 }
@@ -52,7 +60,7 @@ nav {
 
 .links a {
     border-radius: 10px;
-    color:black;
+    color:var(--cta-color--hover);
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -63,7 +71,7 @@ nav {
 
 .links a:hover {
     /* background-color: #BBAB8C; */
-    background-color: #DED0B6;
+    background-color: var(--links-color--hover);
     /* background-color: #FAEED1; */
 }
 
@@ -73,9 +81,6 @@ nav {
     transition: 0.3s ease-in-out all;
 }
 
-.show-container {
-    height: 10rem;
-}
 
 .social-icons {
     display: none;
@@ -127,11 +132,10 @@ nav {
 #cta {
     display: inline-block;
     text-transform: capitalize;
-    color: #F8F7F2;
+    color: var(--background);
     font-size: 1.25rem;
     font-weight:bold ;
-    border: none;
-    background-color: #52b788;
+    background-color: var(--cta-bckg);
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     transition: 0.75s;
@@ -139,8 +143,8 @@ nav {
 
 
 #cta:hover {
-    background-color: #74C69D;
-    color: #404040;
+    background-color: var(--cta-bckg--hover);
+    color: var(--cta-color--hover);
 }
 
 .arrow-icon {
@@ -156,17 +160,15 @@ nav {
 .liveSite {
     display: inline-block;
     padding-top: 1rem;
-    border-bottom: 1px solid #BBAB8C;
+    border-bottom: 1px solid var(--underline--color);
     font-size: 1rem;
 }
 
 
 #footer {
-    background-color: #000b19;
-    color: #F8F7F2;
-    background-color:#F8F7F2 ;
-    color: #000b19;
-    box-shadow:2px -2px 2px #dfdedb;
+    background-color:var(--background) ;
+    color: var(--color-footer);
+    box-shadow:2px -2px 2px var(--footer-box--shadow);
 }
 
 

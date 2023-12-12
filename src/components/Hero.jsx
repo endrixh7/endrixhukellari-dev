@@ -32,7 +32,9 @@ const Hero = () => {
                 </div>
 
                 <div className='cta-icon'>
-                <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch  <span> <SlArrowRightCircle className='arrow-icon'/> </span> </a>
+                    <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch  
+                        <span> <SlArrowRightCircle className='arrow-icon'/> </span> 
+                    </a>
                 </div>
             </article>
             <article className='hidden md:block'>
