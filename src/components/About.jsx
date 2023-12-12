@@ -10,7 +10,7 @@ const About = () => {
                 <SectionTitle text='about me'/>
                 <p className='text-slate-600 mt-8 leading-loose'> 👨‍💻 Code and Coffe ☕
                     <p className="my-story"> 👋 Hello everyone, this is me from the past.
-                    <p>📷 This isn&#39;t the best image, but it has too much effort. </p>
+                    <p>📷 This isn&#39;t the best image,but for me there is a lot of meaning in it. </p>
                     🪙 It&#39;s old and gold for me. It is my first journey to technology. </p>
                     <p> 👁️ If you want to see me now, please click the button below. </p>
                     <p> 🫰 Promise I will not disappoint you.</p>
