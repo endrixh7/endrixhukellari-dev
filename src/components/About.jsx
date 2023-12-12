@@ -1,7 +1,7 @@
 // import aboutSvg from '../assets/about.svg';
 // import aboutSvg1 from '../assets/aboutSvg1.jpg';
 import SectionTitle from './SectionTitle';
-import endriAbout from '../assets/endriAbout.jpeg'
+import endriAbout from '../assets/endriAbout.svg'
 
 const About = () => {
   return <section className='py-20' id='about'>
