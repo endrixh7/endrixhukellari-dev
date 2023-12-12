@@ -13,6 +13,8 @@ const About = () => {
                     👨‍💻 Code and Coffe ☕ <br></br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium delectus, necessitatibus ducimus, voluptates dolores laboriosam eius placeat aperiam earum fugit repellat nobis facere atque vel asperiores nulla ab nesciunt? Id!
                 </p>
+
+                <a href="https://app.rezi.ai/s/4KYfTTQnTShKRXrxn50v" target='_blank' id='cta' rel="noreferrer"> get in touch </a>
             </article>
         </div>
     </section>

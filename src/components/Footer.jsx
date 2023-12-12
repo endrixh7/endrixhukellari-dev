@@ -3,7 +3,7 @@ const Footer = () => {
 <footer id='footer' className="text-center ">
   <div className="flex items-center mx-20 justify-center p-6 lg:justify-between">
   <div className="mr-12 hidden md:block">
-  <span>© {new Date().getFullYear()} Endri Xhukellari. All rights reserved.
+  <span>© {new Date().getFullYear()} <strong>Endri Xhukellari</strong> All rights reserved.
   </span> 
   </div>
   <div className="flex justify-center items-center">
