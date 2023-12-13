@@ -1,5 +1,9 @@
 # endrixhukellari.dev
+``
+This is my personal website. It took me a lifetime to build this website 😎.
+In this website I have tried to apply all the skills I have learned so far, UI/UX, HTML, CSS/Tailwind, VanillaJS/React, Git/Github and Netlify.
 
+``
 ## My cool portofolio using React and Tailwind
 
 ### First lets dive in to Tailwind CSS
@@ -70,6 +74,16 @@
         - info: We can apply directly our styles in array within the data object
         - We also can apply pure CSS
 
+## About Section
+    - Done
+
+## Projects
+    - Done
+
+## Footer
+    - Done
+
+## Aditional info
 
 ### https://tailwindcss.com/docs/text-color
 ## https://www.css3.info/preview/box-shadow/
