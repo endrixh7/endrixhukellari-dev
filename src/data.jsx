@@ -1,4 +1,7 @@
 import img1 from './images/Frame1.svg';
+import img2 from './images/Frame2.svg';
+import img3 from './images/Frame3.svg';
+import img4 from './images/Frame4.svg';
 
 /* eslint-disable no-unused-vars */
 import { FcLinux } from "react-icons/fc";
@@ -118,7 +121,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:img1,
+    img:img2,
     url: 'https://endrixhukellari-flixx-app.netlify.app/',
     github: 'https://github.com/endrixh7/endrixhukellari-flixx-app',
     title: 'Flixx App',
@@ -126,7 +129,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img:img1,
+    img:img3,
     url: 'https://backroads-app-html-to-react-app.netlify.app/',
     github: 'https://github.com/endrixh7/backroads-app',
     title: 'backroads app',
@@ -153,7 +156,7 @@ export const projects = [
 
   {
     id: nanoid(),
-    img:img1,
+    img:img4,
     url: 'https://endrixhukellari.dev',
     github: 'https://github.com/endrixh7/endrixhukellari-dev',
     title: 'My Portofolio - endrixhukellari.dev',
