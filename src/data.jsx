@@ -132,22 +132,25 @@ export const projects = [
     title: 'backroads app',
     text: 'my third project, converting an existing web from HTML/CSS/JS to ReactJS Framework',
   },
-  {
-    id: nanoid(),
-    img:img1,
-    url: 'https://endrixhukellari-birthday-buddy.netlify.app/',
-    github: 'https://github.com/endrixh7/endrixhukellari-birthday-buddy',
-    title: 'birthday buddy',
-    text: 'Mini-project, continuing the road with ReactJS, useState-hook.',
-  },
-  {
-    id: nanoid(),
-    img:img1,
-    url: 'https://endrixhukellari-tours.netlify.app/',
-    github: 'https://github.com/endrixh7/endrixhukellari-tours',
-    title: 'Tours',
-    text: 'Mini-project, continuing the road with ReactJS, useEffect-hook',
-  },
+
+  // {
+  //   id: nanoid(),
+  //   img:img1,
+  //   url: 'https://endrixhukellari-birthday-buddy.netlify.app/',
+  //   github: 'https://github.com/endrixh7/endrixhukellari-birthday-buddy',
+  //   title: 'birthday buddy',
+  //   text: 'Mini-project, continuing the road with ReactJS, useState-hook.',
+  // },
+
+  // {
+  //   id: nanoid(),
+  //   img:img1,
+  //   url: 'https://endrixhukellari-tours.netlify.app/',
+  //   github: 'https://github.com/endrixh7/endrixhukellari-tours',
+  //   title: 'Tours',
+  //   text: 'Mini-project, continuing the road with ReactJS, useEffect-hook',
+  // },
+
   {
     id: nanoid(),
     img:img1,
