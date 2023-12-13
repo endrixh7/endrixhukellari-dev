@@ -44,7 +44,7 @@ export const skills = [
     id: nanoid(),
     title: 'Tailwind CSS',
     icon: <SiTailwindcss className='h-16 w-16 text-sky-400' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'I deeply understand how Tailwind works and apply it to my daily tasks. I picked Tailwind for some reasons, continuous updates and community support, very adaptive with all frameworks, less custom code and last but not least predesigned components.',
   },
 
   {
@@ -63,47 +63,47 @@ export const skills = [
     id: nanoid(),
     title: 'Node JS',
     icon: <FaNodeJs className='h-16 w-16 text-green-600	' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Deep understanding of how "npm" works. NodeJS has been my friend for a long time during my journey as FrontEnd',
   },
 
   {
     id: nanoid(),
     title: 'MongoDB',
     icon: <SiMongodb className='h-16 w-16 text-green-600' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'MongoDB is my excellent choice, faster development and scalable data.',
   },
 
   {
     id: nanoid(),
     title: 'Contentful CMS',
     icon: <SiContentful className='h-16 w-16 text-blue-700' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Minimal understanding of Contentful CMS, integrating API and dynamic data from a headless CMS.',
   },
 
   {
     id: nanoid(),
     title: 'Git',
     icon: <FaGitSquare className='h-16 w-16 text-orange-600' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Advanced proficiency in Git, developing efficient applications and collaborating with other developers',
   },
   {
     id: nanoid(),
     title: 'Github',
     icon: <FaGithubSquare className='h-16 w-16' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Deep understanding of Github, able to create, store, change, merge and collaborate on files or code',
   },
 
   {
     id: nanoid(),
     title: 'Windows',
     icon: <FaWindows className='h-16 w-16 text-blue-900' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Windows is my daily operating system. I wake up and sleep with him. Deeply understanding how Windows works, services, network, active directory.',
   },
   {
     id: nanoid(),
     title: 'Linux',
     icon: <FcLinux className='h-16 w-16'/>,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Deep understanding of Linux, able to understand how Linux Server work including daemons, network, configurations and the most powerful tool, terminal.'
   },
 ];
 

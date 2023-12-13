@@ -1,0 +1,524 @@
+# What we will learn?
+## Job search strategies
+## Coding interview questions
+## JavaScript, React
+
+## Our instructors
+- Bob Zirol
+- Dylan Israel
+- and more...
+
+# Getting hired
+
+- What people think they're looking for:
+- Skilled/experience in a specific language/framework
+- Super geek, spends all free time coding
+- Solve whiteboard problems in the most clever way
+- Answer every question in an interview
+- Impressive credentials/certifications
+LESS THAN
+
+- What they're looking for:
+- Solve problems
+- Personable, humble, easy to work - human at the single day
+- White easy-to-understand (easy-to-maintain) solution
+- Able/willing to admit when you don't know something (how to react when you don't know the answer)
+- Impressive projects and portfolio (how you will explain them)
+
+# What should I be doing to get a job?
+
+- What people think they should be doing:
+- Tout abilities in language/framework
+- Apply for tons of jobs online
+- Ignore jobs they're not qualified for
+- Prepare incessantly for whiteboard problems
+- Show off certifications/degrees/etc
+
+LESS THAN
+- Show the ability to solve problems
+- Network and make friends in the industry
+- Apply for jobs even if they "require" more than you have
+- Prepare to solve problems vocally or with pseudocode
+- Show and explain past projects
+
+# Takeways
+- Practice!
+- Be human
+- Make friends
+- Build things
+
+
+# Problem Solving
+- Geoge Polya - How to Solve it?
+- Solving math problems is the same as the code problem
+Steps:
+1- Understand the problem
+- Explain the problem with different words in different ways
+2- Devise a plan
+- Don't skip it!
+- Don't try to remember the code
+- Try for the logic then go to code
+- Break it down into smaller problems
+- Create the solutions for small problems
+3- Execute the plan
+4- Review your solution
+- Do we have a better plan?
+- If yes go device the plan again
+Here Hiring managers can find if you are a Junior Dev or Senio Dev
+
+- Junior Developers Schema
+- They don't have a plan
+- Left and Right
+- Just practice
+- Senior Developers Schema
+- Multiple Idea to solve the problem
+- Which is better
+- Just practice to get here
+
+# Getting a Portofolio
+- Skills
+- Personality
+- Best Projects
+
+
+# LinkedIn Course
+- LinkedIn HeadLine
+- You are 40 times more likely to be seen
+- 3 People are hired on LinkedIn every minute
+- 55 million companies are on LinkedIn
+
+## Change headline to 'React Developer'
+- Done ✅
+- Add 3 more connections
+- Done ✅
+
+## Creating a great summary
+- A LinkedIn summary is your first impression of a recruiter.
+- It's an elevator pitch!
+- Help us to rank and make more visible
+
+## What does a recruiter see?
+- What do they see when they view your profile?
+- What do you want them to see?
+- What is the one piece of information about you that you'd want them to know?
+
+1- Capture attention with a strong opening statement
+2- React Developer with a strong passion for accessibility and testing.
+- I decided to go with React for a few strong reasons
+1- Im a JavaScript/NodeJS lover and I like the simplicity of JavaScript
+2- I like functional programming
+3- I like React, components, fast, reusable, and the Facebook maintain that xD
+4- JavaScript/React has a big, powerful community out there
+5- Strongest on the market for jobs
+3- Use Keywords to rank higher (Rezi, don't list too many long)
+- Search for job postings that interest you
+- Take note of the technologies and skills they list
+4- Showcase your best side
+- List your biggest project
+- Talk about your most impressive accomplishments
+- Write about what you love doing
+- What about why you're excited about coding
+5- Check your grammar/spelling
+- Keep it Professional
+- Ask a friend to review your summary
+- Ask a fellow Scrimba student to give it a once-over
+6- End with a strong call to action
+- End your summary with a call to action to recruiters
+- Reach me at "email"
+- Make it easy and simple
+
+# Adding a professional headshot
+- Already done ✅
+# Adding an awesome cover image
+- Left side
+- Hobby information
+- Right Side
+- Contact information
+- Font, Color
+
+# Increasing your visibility
+- LinkedIn must be public
+- Open to Find new job opportunities
+- Job titles - 'React Developer'
+- Add location and remote
+- Set your start date to immediately
+- Be open to different job types like contract or temporary
+- Profile badge
+- Share your profile
+- Share your resume data with all recruiters
+- Upload Resume
+
+# Adding past work experience
+- Don't worry if you do not have experience
+- I bring other things to the table
+Past work history can:
+- Showcase your work ethic
+- Highlight your past skill
+- Demonstrate your communication or mentorship skills
+- Show your commitment
+Highlight transferable skills, anything that can be used on the 'new job'
+- Any software
+- Any writing exp
+- Mentorship exp
+- Teamwork skills
+- Problem-solving skills
+Make it Specific
+- Show your work examples
+- Go into details
+- Add numbers or results on LinkedIn
+- Poor Explanation vs Rich Explanation
+- Done ✅
+
+# Highlighting your accomplishments
+- Add Multiple Sections
+- Adding accomplishments
+- Journey
+- Paths
+- Previous work
+# Optimizing your keywords
+- Rezi.ai - Resume keywords
+- Check jobs what keywords are used
+
+# Getting connected
+- Attend meetups
+- Find conferences to attend
+- Connect with others on Twitter
+- Discord or Slack groups
+
+# Getting recommendations(new)
+- Ask for a recommendation (friends, colleagues)
+
+# Outro
+- Done ✅😎❤️
+
+# FrontEnd Job Interview Tips
+
+## The procedure to follow in coding Interview:
+
+Front-End Interview Questions: Introduction
+1. Let's review the question.
+2. Pause the screencast and spend 5 - 10 minutes researching an answer.
+3. Come back to my answer/solution.
+4. Review, record and repeat till you can confidently answer the question.
+
+## Truthy, Falsy in JS
+- False values are unique to the language itself
+- What are the caveats for using them?
+- Carefully when using them!
+
+Answers:
+- Evaluate the False
+- We have 6 of them
+- Undefined
+- Null
+- NaN
+- Zero (0)
+- Empty string
+- False itself
+Remember this:
+Always will be false, when might be good and when might be bad?
+if(null) {
+console.log('null')
+}
+
+if(undefined) {
+console.log('undefined')
+}
+
+const arr = [];
+
+if(arr.length > 0) {
+console.log('0')
+}
+
+const word = '';
+
+if(word.length > 0) {
+console.log('empty')
+}
+
+if(false) {
+console.log('false')
+}
+
+## What are the differences between var, let and const?
+- var uses a lexical scope.
+- Even if it's on function scope, JS will create that on the top of the code, so the var will be executed.
+- let and const use block scope.
+- const is there to store a constant value that will not be reassigned
+- const is used for mutable data types, where you can change the value of the data types but you cannot reassign the new brand of that data type. (most data types used are Object and Array)
+- let is there to store a value that will be assigned
+
+## Double equal vs Triple equal
+- If you do not know this you will be eliminated from the interview
+- JS by default will stringify everything. For example during the comparison:
+const value1 = 5;
+const value2 = '5';
+if(value1 == value2) // this will be 'true' with double equal
+but
+const value1 = 5;
+const value2 = '5';
+if(value1 === value2) // this will be 'false' with triple equal
+Triple equal checks the 'value' and the 'type'
+In this case:
+value1 is 'the value 5' and is a number and value2 is a string with the number 5 inside
+
+## Undefined vs Null
+- Undefined is:
+- Doesn't exist
+- Doesn't have a value
+- Null is:
+- Intentional set to null
+Example with objects:
+const user = {
+firstName: null
+};
+
+const user2 = {
+};
+
+console.log(user.firstName); // Null
+console.log(user2.firstName) // Undefined
+
+## Data types
+- What are some JavaScript data types?
+- Primitive
+- Stores only one value
+- String
+- Number
+- Bigint
+- Boolean
+- Undefined
+- Null
+- Symbol
+- Object
+
+- Non-Primitive
+- Store multiple values
+- Array
+- Object
+- A date
+- Map - array again
+- Set - array with unique value
+
+## What do the Spread and Rest operators do?
+This question has to do with you staying up-to-date with the latest updates of ECMA Script(for JS Dev this question)
+- No excuses for this question, you have all the time and resources to search and figure out
+- How you can use them?
+- When to use them?
+- Where to use them?
+- on arrays or objects
+- Why to use them?
+Similar syntax [...spread] used on arrays
+Similar syntax (...num) used on a function
+Example:
+const users = ['Dylan', 'Per', 'Dollan'];
+const allUsers = ['Olivia', ...users];
+console.log(allUsers);
+
+const user = { firstName: 'Dylan', lastName: 'Israel', channel: 'codingtutorials360' };
+const defaults = { channel: 'scrimba', ...user };
+console.log(defaults);
+
+const {channel, ...remainder } = defaults;
+
+console.log(remainder)
+
+function addNums(...nums){
+return nums.reduce((total, current) => { return total + current; }, 0)
+}
+
+console.log(addNums(1,2,3))
+console.log(addNums(1,2))
+
+## Destructuring Objects and Arrays
+### What is and why might you destructure an object or array?
+
+## Git fundamentals
+
+## Agile and Scrum
+
+## CSS Selectors
+
+## Responsive Design
+
+## Number issues
+
+## Promises
+
+## 'Pass by values' and 'Pass by reference'
+
+## Five questions to be prepared for
+
+## Five preparation tips
+
+## Got any question for me?
+
+## Github tips
+
+# Resume tips
+
+# Job Search Strategy
+
+
+# JavaScript Interview Challenges
+
+
+
+# REACT Interview Questions
+## What we're going to do:
+- We will talk about high-level React Concepts you might be asked about
+- Hands-on interview
+- Fun
+
+1- Virtual DOM vs DOM
+
+- Virtual DOM:
+- Cant directly update the HTML
+- Acts as a copy of the real DOM, which can be frequently manipulated and updated without a page refresh
+- More of a pattern than a specific technology
+- Synced with the real DOM with react-dom
+- 'Real' DOM
+- Directly updates and manipulates DOM
+- Creates a new DOM/Full repaint if it's updated
+- An object-based representation of an HTML document + an interface for manipulating that object
+
+The key is diffing (ndryshimi)
+
+- Shadow DOM vs Virtual DOM
+- Shadow is a browser-based technology
+
+# React Limitations
+- It's a library, not a framework
+- MVC (model view controll), React is the "V" - view
+- Gatsby/NextJS are the framework
+- Framework is strict
+- It's large
+- Preact is a smaller version of React still using a lot of features of React
+- Being owned by Facebook
+- Privacy, do you believe Facebook?
+- Documentation
+- Function components are the future of the React
+- Should be used in the future
+
+# JSX
+What is the JSX?
+- Bread and Butter for React
+- Short for JavaScript XML
+- Write JavaScript with an HTML-like template syntax
+- Produces elements that represent objects
+
+- What is the difference between an element and a component?
+- The 'element' is created by JSX as an object <div>
+- The 'component' is the function that returns that element <Component/>
+- <Component/> returns <div>
+- Can you write React without JSX?
+- Yes, React.createElement('div', null, 'Hello') -> Imperative
+
+# Props
+- How do you pass a value from parent to child?
+- This is done via 'props'
+- What about from child to parent?
+- You pass a 'function prop' to the parent
+- How to Pass Props from Child to Parent Component in React?
+- What is prop-drilling?
+This is the structure:
+- Grandparent - Pass data down
+- Parent - Pass data down
+- Child - Pass data down
+- Can you modify props?
+- Props are read-only
+# State and Lifecycle
+- What is the difference between props and state?
+- State and Props are JS objects
+- They both do hold information on what's gonna render
+- Props get passed at Components like function parameters
+- State is scoped, it's like a variable declared within the function and cannot be accessed outside of the function unless is passed with props
+- What is the difference between state in a class component versus state in a function component?
+- State is a class component is something like detached to a 'class object' -> Persisted all the time
+- State in a function component is something recalled multiple times. -> Not Persisted all the time
+- What is the component lifecycle?
+There are 3 main parts of the component's lifecycle:
+- Mounting
+- render, componentDidMount -> function
+- Updating
+- render, componentDidUpdate -> function
+- Unmounting
+- componentWillUnmount -> function
+- How do you update the lifecycle in function components?
+- We use a function by using a hook called useEffect
+
+# Effects
+- What parameters does 'useEffect' take in?
+- It takes two
+1- The first one is a function that tells us that it's gonna be run
+2- The second is an array, which determines when will be run.
+- [] -> Runs on mount
+- [variable] -> Runs on the mount and when the variable changes, this one is useState or state-driven
+- No array -> Runs on mount and every state change
+- What is the effect function's return value?
+- Clean up function
+- Clear everything
+- remove event listener, stop fetch program etc...
+
+# Refs
+- What is the difference between refs and state variable
+- State render and re-render
+- Refs can persist accross States
+- When are the best times to use refs?
+- Not too much
+- Dont overuse them
+- Managing focus or media
+- Triggering animations
+- Integrating with DOM libraries
+- What is the proper way to update a ref in a function component?
+- refs
+
+# Context API
+- What is the difference between the Context API and Prop drilling?
+There are a few key points:
+- Prop drilling is of implicit, hierarchy access, component to component to component
+- Context API is explicit, direct access, from component 1 to component 'n'
+- When shouldn't you use the context API?
+- You shouldn't overuse to avoid unnecessary re-rendering
+- Context API is perfect for authentication, website theme that doesn't need to be shared
+- Context API -> Redux
+
+# Miscellaneous -> Important
+- What is Fragment?
+- It is a container
+- Avoid reusing div inside the div and the div because will break the design system
+- When should you use a class-based component versus a function component
+- Use the 'function' component because is the future.
+- What is a higher-order component?
+- HOC buzzword
+- It's a function that takes in a component and returns a component.
+- It is used for re-using components logic and is a pattern React
+- What is a portal in React?
+- It's a way to render a child into a DOM Node to the outside of the parent
+- It can live outside the tree, you can see this in 'modal'.
+- What are uncontrolled components?
+- Uncontrolled components are inputs typically or use-manipulated where use controll them and React doesn't.
+- When you have to use jQuery for DOM and React for Virtual DOM you'll face problems
+- What are controlled components?
+- This is the way to handle the jQuery and React problems
+- You have an input and React Controll them and jQuery will not touch that
+Bonus:
+Convert Class Component to Function Component:
+- Remove Extends and add Function Name
+- Remove Constructor
+- Import useState
+- Init state to 0
+- Remove render() and this.state
+- Instead of this. blahblah and use 'useState'
+- Done ✅
+
+# React Interview Questions
+What we covered:
+- The DOM vs Virtual DOM
+- Why React?
+- Fundamentals (props, state, JSX, lifecycle)
+- Hooks (useEffect, useRef)
+- The Context API
+- State vs Class Components
+# Done
