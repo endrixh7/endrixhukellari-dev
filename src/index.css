@@ -132,10 +132,10 @@ nav {
 #cta {
     display: inline-block;
     text-transform: capitalize;
-    color: var(--background);
+    color: #f7f8f2;
     font-size: 1.25rem;
     font-weight:bold ;
-    background-color: var(--cta-bckg);
+    background-color: #1E4834;
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     transition: 0.75s;
