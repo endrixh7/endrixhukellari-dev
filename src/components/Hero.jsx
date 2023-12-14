@@ -23,13 +23,13 @@ const Hero = () => {
                 </p>
 
                 <div className='flex gap-x-4 mt-4'>
-                    <a href="https://github.com/endrixh7" target='_blank' rel="noreferrer">
+                    <a href="https://github.com/endrixh7" target='_blank' rel="noreferrer" aria-label="Endri Xhukellari's Github">
                         <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
-                    <a href="https://www.linkedin.com/in/endri-xhukellari-0592311a5/" target='_blank' rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/endri-xhukellari-0592311a5/" target='_blank' rel="noreferrer" aria-label="Endri Xhukellari's LinkedIn">
                         <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
-                    <a href="https://twitter.com/XhukellariEndri" target='_blank' rel="noreferrer">
+                    <a href="https://twitter.com/XhukellariEndri" target='_blank' rel="noreferrer" aria-label="Endri Xhukellari's Twitter/X">
                         <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
                     </a>
                 </div>

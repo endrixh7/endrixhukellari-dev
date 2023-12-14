@@ -23,8 +23,8 @@ const Navbar = () => {
   return (<nav className="fixed top-0 left-0 right-0">
     <div className="nav-center ">
       <div className="nav-header">
-        <a href="#home"> <img src={logo} alt='Endri Xhukellari"s logo' className="logo"/> </a>
-        <button className="nav-toggle" onClick={toggleLinks}> <FaBars/> </button>
+        <a href="#home" aria-label="Endri Xhukellari brand logo">  <img src={logo} alt='Endri Xhukellari"s logo' className="logo"/> </a>
+        <button className="nav-toggle" aria-label="Name" onClick={toggleLinks}> <FaBars/> </button>
       </div>
 
        <div className="links-container " ref={linksContainerRef} style={linksStyles}>
@@ -43,7 +43,7 @@ const Navbar = () => {
         {social.map((socialIcon)=>{
           const {id, url, icon} = socialIcon
             return <li key={id}>
-              <a target="_blank" href={url} rel="noreferrer">{icon}</a>
+              <a target="_blank" href={url} rel="noreferrer" aria-label="social-icons">{icon}</a>
             </li>
         })}
       </ul>
