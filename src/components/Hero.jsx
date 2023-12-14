@@ -1,4 +1,7 @@
-import heroImg from '../assets/hero.svg';
+// import heroImg from '../assets/hero.svg';
+// import heroImg from '../assets/hero1.svg';
+import heroImg from '../assets/hero2.svg';
+// import heroImg from '../assets/hero3.svg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import { SlArrowRightCircle } from "react-icons/sl";
 // import { heroIcons } from '../data';
@@ -16,7 +19,7 @@ const Hero = () => {
                     front-end developer
                 </p>
                 <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-                    turning ideas into interactive reality
+                i visualize difficult thoughts in the easiest ways
                 </p>
 
                 <div className='flex gap-x-4 mt-4'>

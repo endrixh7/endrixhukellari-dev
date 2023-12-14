@@ -6,7 +6,7 @@ import endriAbout from '../assets/aboutSvg1.jpg'
 const About = () => {
   return <section className='py-20' id='about'>
         <div className='align-element grid md:grid-cols-2 items-center gap-16'>
-            <img src={endriAbout} className='w-full h-128 border-2 rounded-3xl' />
+            <img src={endriAbout} alt="Endri Xhukellari personal image" className='w-full h-128 border-2 rounded-3xl' />
             <article>
                 <SectionTitle text='about me'/>
                 <p className='text-slate-600 mt-8 leading-loose'> 👨‍💻 Code and Coffe ☕
