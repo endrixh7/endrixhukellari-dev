@@ -3,6 +3,8 @@ import img2 from './images/Frame2.svg';
 import img3 from './images/Frame3.svg';
 import img4 from './images/Frame4.svg';
 import img5 from './images/Frame5.svg';
+import img6 from './images/Frame6.svg';
+import img7 from './images/Frame7.svg';
 
 /* eslint-disable no-unused-vars */
 import { FcLinux } from "react-icons/fc";
@@ -166,6 +168,22 @@ export const projects = [
   {
     id: nanoid(),
     img:img5,
+    url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-JavaScript-challenges',
+    title: 'JavaScript challenges for Front End Devs',
+    text: 'Improving my skills on problem solving',
+  },
+  {
+    id: nanoid(),
+    img:img6,
+    url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
+    github: 'https://github.com/endrixh7/endrixhukellari-JavaScript-challenges',
+    title: 'JavaScript challenges for Front End Devs',
+    text: 'Improving my skills on problem solving',
+  },
+  {
+    id: nanoid(),
+    img:img7,
     url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
     github: 'https://github.com/endrixh7/endrixhukellari-JavaScript-challenges',
     title: 'JavaScript challenges for Front End Devs',
