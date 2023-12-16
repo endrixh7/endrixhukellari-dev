@@ -124,7 +124,7 @@ nav {
 }
 
 .cta-icon {
-    margin-top: 2.25rem;
+    margin-top: 1.8rem;
     display: flex;
     align-items: center;
 }
@@ -135,7 +135,9 @@ nav {
     color: #f7f8f2;
     font-size: 1.25rem;
     font-weight:bold ;
-    background-color: #1E4834;
+    /* background-color: #1E4834; */
+    /* background-color: #059669; */
+    background-color: rgb(5, 150, 105);
     border-radius: 1rem;
     padding: 1rem 1.5rem;
     transition: 0.75s;
@@ -143,7 +145,7 @@ nav {
 
 
 #cta:hover {
-    background-color: var(--cta-bckg--hover);
+    background-color: rgba(5, 150, 105, 0.8);
     color: var(--cta-color--hover);
 }
 

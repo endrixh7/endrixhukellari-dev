@@ -176,18 +176,18 @@ export const projects = [
   {
     id: nanoid(),
     img:img6,
-    url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
-    github: 'https://github.com/endrixh7/endrixhukellari-JavaScript-challenges',
-    title: 'JavaScript challenges for Front End Devs',
-    text: 'Improving my skills on problem solving',
+    // url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
+    github: 'https://github.com/endrixh7/UnderstandingAPI',
+    title: 'Understanding API',
+    text: 'Deep dive in API',
   },
   {
     id: nanoid(),
     img:img7,
-    url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
-    github: 'https://github.com/endrixh7/endrixhukellari-JavaScript-challenges',
-    title: 'JavaScript challenges for Front End Devs',
-    text: 'Improving my skills on problem solving',
+    // url: 'https://endrixhukellari-javascript-challenges.netlify.app/',
+    github: 'https://github.com/endrixh7/Data_Structures_UnitTest',
+    title: 'Intro to data structures and testing',
+    text: 'Testing algorithm using Jest',
   },
 ];
 
