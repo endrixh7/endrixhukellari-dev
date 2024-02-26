@@ -89,3 +89,6 @@ In this website I have tried to apply all the skills I have learned so far, UI/U
 ## https://www.css3.info/preview/box-shadow/
 ## https://colorhunt.co/palette/fdf7e4faeed1ded0b6bbab8c -> Colors
 ## https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15 -> CTA Colors 
+
+# Security Issues
+    - Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive filesystem #1
